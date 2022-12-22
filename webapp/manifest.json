@@ -56,24 +56,24 @@
             },
             "routes": [
                 {
-                "pattern": "",
-                "name": "overview",
-                "target": "overview"
+                    "pattern": "",
+                    "name": "overview",
+                    "target": "overview"
                 },
                 {
-                "pattern": "detail",
-                "name": "detail",
-                "target": "detail"
+                    "pattern": "detail/{invoicePath}",
+                    "name": "detail",
+                    "target": "detail"
                 }
             ],
             "targets": {
                 "overview": {
-                "id": "overview",
-                "name": "Overview"
+                    "id": "overview",
+                    "name": "Overview"
                 },
                 "detail": {
-                "id": "detail",
-                "name": "Detail"
+                    "id": "detail",
+                    "name": "Detail"
                 }
             }
         },
