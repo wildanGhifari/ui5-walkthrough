@@ -1,0 +1,36 @@
+{
+  "name": "walkthrough",
+  "version": "1.0.0",
+  "main": "webapp/index.html",
+  "devDependencies": {
+    "@sap-ux/ui5-middleware-fe-mockserver": "2",
+    "@sap/ux-ui5-tooling": "1",
+    "@ui5/cli": "^2.14.17",
+    "rimraf": "^3.0.2",
+    "ui5-task-flatten-library": "0.2.5"
+  },
+  "scripts": {
+    "start": "ui5 serve",
+    "build": "ui5 build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "ui5": {
+    "dependencies": [
+      "@sap/ux-ui5-tooling",
+      "@sap-ux/ui5-middleware-fe-mockserver",
+      "ui5-task-flatten-library"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wildanGhifari/ui5-walkthrough.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wildanGhifari/ui5-walkthrough/issues"
+  },
+  "homepage": "https://github.com/wildanGhifari/ui5-walkthrough#readme",
+  "keywords": [],
+  "description": ""
+}
